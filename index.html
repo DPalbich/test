@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Website business card</title>
+</head>
+<body>
+    <header class="header"> 
+        <a href="#about" class="header-link link">Обо мне</a>
+        <a href="#education" class="header-link link">Образование</a>
+        <a href="#work-experience" class="header-link link">Опыт работы</a>
+        <a href="#hobby" class="header-link link">Хобби</a>
+        <a href="#developer" class="header-link link">Как я становился разработчиком</a>
+        <a href="#contacts" class="header-link link">Контакты</a>
+    </header>
+
+    <main> <!--Основная часть сайта-->
+        <h1 class="title">Уйданов Дмитрий Павлович. Ученик SkillFactory</h1>
+        <p class="my-photo"><img src="pictures/me.jpg" alt="my photo"></p> <!--Вставка картинки-->
+        <section class="main-section">
+            <h2 class="subtitle" id="about">Обо мне</h2> <!--Раздел 1-->
+            <p><strong>К своим личным качествам могу отнести следующие:</strong> <i>целеустремленность, прилежание,<br>
+            человеколюбие, умение работать в команде и т.д. Очень люблю учиться и доводить<br>
+            начатое дело до конца. Конфликтность и бескомпромиссность мне не свойственны.<br>
+            Предпочитаю сглаживать все недоразумения сразу, не доводить их до кризисной<br>
+            ситуации.</i></p>
+
+            <h2 class="subtitle" id="education">Образование</h2> <!--Раздел 2-->
+            <p>На данным момент обучаюсь в университете <strong>СИБУПК</strong> на факультете <strong>"Экономики и управления"</strong><br>
+            по специальности <strong>"Информационные системы и программирование"</strong>. Также еще обучаюсь на<br>
+            курсах от <strong>SkillFactory.</strong></p>
+
+            <h2 class="subtitle" id="work-experience">Опыт работы</h2> <!--Раздел 3-->
+            <p><strong>Мне всего 19 лет</strong> и 13 из них я только учусь, поэтому опыта работы не имеется.</p> 
+
+            <h2 class="subtitle" id="hobby">Хобби</h2> <!--Раздел 4-->
+            <p>Люблю учиться. В свободное время люблю проводить время с друзьями.</p>
+
+            <h2 class="subtitle" id="developer">Как я становился разработчиком</h2> <!--Раздел 5-->
+                <ul>
+                    <li>18 февраля 2022 года изучил основы языка программирования <strong>SQL</strong></li>
+                    <li>2 марта 2022 года изучил основы <strong>С++</strong></li>
+                    <li>4 Октября 2022 года изучил различные виды диаграмм для бизнеса<br>
+                    <strong>(use case, sequence, class)</strong></li>
+                    <li>25 Октября изучил язык <strong>HTML</strong></li>
+                </ul>
+        </section>
+
+        <h2 class="subtitle" id="contacts">Контакты</h2>
+        <p class="contacts-item">
+            <img src="pictures/phone_black_24dp.svg" alt="phone" class="contacts-icon">
+            <a href="tel:1337" class="link">1337</a> <!--Создание ссылки-->
+        </p>
+        <p class="contacts-item">
+            <img src="pictures/email_black_24dp.svg" alt="email" class="contacts-icon">
+            <a href="mailto:dpalbich@bk.ru" class="link">dpalbich@bk.ru</a>
+        </p>
+        <p class="contacts-item">
+            <img src="pictures/iconmonstr-github-1.svg" alt="git" class="contacts-icon">
+            <a href="https://github.com/DPalbich" class="link">https://github.com/DPalbich</a>
+        </p>
+    </main>
+
+    <footer class="footer"> <!--Подвал-->
+        <p>By Dpalbich</p>
+    </footer>
+</body>
+</html>

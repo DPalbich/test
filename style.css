@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Playfair Display', cursive;
+}
+
+body {
+    margin: 0;
+    display: block;
+    background-image: url(pictures/main.jpg);
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 17pt;
+}
+
+header {
+    display: block;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-link {
+    margin: 0 25px;
+}
+
+.link {
+    color: #556B2F;
+    transition: color .2s;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+.my-photo {
+    text-align: center;
+}
+
+.subtitle {
+    border-left: 5px solid #556B2F;
+    padding-left: 10px;
+    color: black;
+    margin-top: 70px;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Playfair Display', cursive;
+}
+
+p, li {
+    font-size: 17pt;
+    display: block;
+}
+
+li {
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+}
+
+p, h2 {
+    margin-left: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    color: #556B2F;
+}
+
+ul {
+    display: block;
+    padding-left: 70px;   
+}
+
+section {
+    display: block;
+}
+
+/* Контакты */
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-icon {
+    margin: 0px 20px 0px 0px;
+}
+
